@@ -2,14 +2,14 @@
 
 This packages provides the `four for business` [corporate brand logo][].
 
-[corporate brand logo]: https://github.com/fourforbusiness/fourforbusiness-corporate-logo
+[corporate brand logo]: https://github.com/fourforbusiness/corporate-brand-logo
 
 ## Installation
 
 npm
 
 ```bash
-npm i @fourforbusiness/corporate-logo-svg
+npm i @fourforbusiness/corporate-brand-logo
 ```
 
 yarn
