@@ -21,8 +21,9 @@ yarn add @fourforbusiness/corporate-brand-logo
 ## Usage
 
 The component consumes two props and inherits text color:
+- icon (boolean) - changes from logo to icon  
 - width (number)
-- icon (boolean)
+
 The default width is 275px.
 
 ### Logo 
