@@ -23,6 +23,7 @@ yarn add @fourforbusiness/corporate-brand-logo
 The component consumes two props and inherits text color:
 - width (number)
 - icon (boolean)
+The default width is 275px.
 
 ### Logo 
 <!-- prettier-ignore -->
@@ -30,6 +31,8 @@ The component consumes two props and inherits text color:
 import Logo from '@fourforbusiness/corporate-brand-logo'
 
 <Logo />
+
+<Logo width={320} />
 ```
 ### Icon 
 <!-- prettier-ignore -->
