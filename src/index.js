@@ -202,7 +202,7 @@ Logo.propTypes = {
 Logo.defaultProps = {
   icon: false,
   width: 275,
-  fill: `pink`,
+  fill: `black`,
 }
 
 export default Logo
