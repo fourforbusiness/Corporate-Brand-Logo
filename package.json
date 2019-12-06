@@ -79,6 +79,9 @@
     "repositoryUrl": "https://github.com/fourforbusiness/corporate-brand-logo.git",
     "branch": "master",
     "debug": true,
+    "publishConfig": {
+      "access": "public"
+    },
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
@@ -86,8 +89,5 @@
       "@semantic-release/npm",
       "@semantic-release/git"
     ]
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
