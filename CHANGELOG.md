@@ -1,3 +1,10 @@
+## [0.1.3](https://github.com/fourforbusiness/corporate-brand-logo/compare/v0.1.2...v0.1.3) (2019-12-06)
+
+
+### Bug Fixes
+
+* push to npm reg with scoped pack ([df06ad7](https://github.com/fourforbusiness/corporate-brand-logo/commit/df06ad7b58842d4f2df4a57aeac65bc5e55220db))
+
 ## [0.1.2](https://github.com/fourforbusiness/corporate-brand-logo/compare/v0.1.1...v0.1.2) (2019-12-06)
 
 
