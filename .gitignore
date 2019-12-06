@@ -1,0 +1,7 @@
+__snapshots__
+.cache
+dist
+node_modules
+.nyc_output
+coverage*
+yarn-error.log
