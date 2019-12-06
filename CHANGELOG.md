@@ -1,3 +1,10 @@
+## [0.1.2](https://github.com/fourforbusiness/corporate-brand-logo/compare/v0.1.1...v0.1.2) (2019-12-06)
+
+
+### Bug Fixes
+
+* move publishConfig ([df43b37](https://github.com/fourforbusiness/corporate-brand-logo/commit/df43b3798f40e289504e92dadbe5e6d4d8144483))
+
 ## [0.1.1](https://github.com/fourforbusiness/corporate-brand-logo/compare/v0.1.0...v0.1.1) (2019-12-06)
 
 
