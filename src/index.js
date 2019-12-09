@@ -7,7 +7,6 @@ const Logo = ({ width, icon }) => {
   return (
     <svg
       width={`${width}px`}
-      height={`auto`}
       viewBox={`0 0 ${viewBoxWidth} 44`}
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
