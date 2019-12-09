@@ -1,3 +1,10 @@
+## [0.1.4](https://github.com/fourforbusiness/corporate-brand-logo/compare/v0.1.3...v0.1.4) (2019-12-09)
+
+
+### Bug Fixes
+
+* remove auto-height, which causes an console error ([2de9821](https://github.com/fourforbusiness/corporate-brand-logo/commit/2de982140df8d3e9b33b344c4d355b2d2a7481b0))
+
 ## [0.1.3](https://github.com/fourforbusiness/corporate-brand-logo/compare/v0.1.2...v0.1.3) (2019-12-06)
 
 
