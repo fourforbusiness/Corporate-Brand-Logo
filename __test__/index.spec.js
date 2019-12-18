@@ -5,25 +5,35 @@ import renderer from 'react-test-renderer'
 
 describe('four for business Corporate Logo / Icon', () => {
   describe('Logo"', () => {
-    test('Logo Plain', () => {
+    test('Plain', () => {
       const component = renderer.create(<Logo />)
       let tree = component.toJSON()
       expect(tree).toMatchSnapshot()
     })
-    test('Logo Width', () => {
+    test('Width', () => {
       const component = renderer.create(<Logo width={320} />)
+      let tree = component.toJSON()
+      expect(tree).toMatchSnapshot()
+    })
+    test('Width Array', () => {
+      const component = renderer.create(<Logo width={[50, 100, 150, 200]} />)
       let tree = component.toJSON()
       expect(tree).toMatchSnapshot()
     })
   }),
     describe('Icon', () => {
-      test('Icon Plain', () => {
+      test('Plain', () => {
         const component = renderer.create(<Logo icon />)
         let tree = component.toJSON()
         expect(tree).toMatchSnapshot()
       })
-      test('Icon Width', () => {
+      test('Width', () => {
         const component = renderer.create(<Logo icon width={64} />)
+        let tree = component.toJSON()
+        expect(tree).toMatchSnapshot()
+      })
+      test('Width Array', () => {
+        const component = renderer.create(<Logo icon width={[16, 32, 64]} />)
         let tree = component.toJSON()
         expect(tree).toMatchSnapshot()
       })

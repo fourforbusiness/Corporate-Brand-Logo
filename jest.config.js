@@ -3,4 +3,5 @@ module.exports = {
   coverageDirectory: 'coverage',
   testRegex: '((\\.|/*.)(spec))\\.js?$',
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
+  snapshotSerializers: ['jest-emotion'],
 }
