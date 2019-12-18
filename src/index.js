@@ -1,12 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import styled from '@emotion/styled'
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
 
-const Logo = ({ width, icon }) => {
+const Logo = ({ icon, width }) => {
   const viewBoxWidth = icon ? '44' : '275'
+  const StyledSvg = styled('svg')({})
 
   return (
-    <svg
-      width={`${width}px`}
+    <StyledSvg
+      sx={{ width: width }}
       viewBox={`0 0 ${viewBoxWidth} 44`}
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
@@ -189,13 +193,13 @@ const Logo = ({ width, icon }) => {
         </mask>
         <use id="Clip-187" fill="currentColor" xlinkHref="#path-37"></use>
       </g>
-    </svg>
+    </StyledSvg>
   )
 }
 
 Logo.propTypes = {
   icon: PropTypes.bool,
-  width: PropTypes.number,
+  width: PropTypes.oneOfType([PropTypes.number, PropTypes.arrayOf(PropTypes.number)]),
 }
 
 Logo.defaultProps = {

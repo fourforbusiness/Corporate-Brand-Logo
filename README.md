@@ -47,6 +47,17 @@ import Logo from '@fourforbusiness/corporate-brand-logo'
 <Logo icon />
 ```
 
+### Theme UI
+
+Addionally the logo could be used with Theme UI. If your theme has defined breakpoints it is possible to provide an array for width.
+
+<!-- prettier-ignore -->
+```jsx
+import Logo from '@fourforbusiness/corporate-brand-logo'
+
+<Logo width={[64,128,256]} />
+```
+
 ## License
 
 [MIT][]

@@ -20,13 +20,16 @@
     "release": "npx semantic-release"
   },
   "dependencies": {
-    "prop-types": "^15.7.2"
+    "@emotion/core": "^10.0.22",
+    "@emotion/styled": "^10.0.23",
+    "@mdx-js/react": "^1.5.2",
+    "prop-types": "^15.7.2",
+    "theme-ui": "^0.2.52"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.4",
     "@babel/core": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
-    "@babel/preset-es2015": "^7.0.0-beta.53",
     "@babel/preset-react": "^7.7.4",
     "@babel/register": "^7.7.4",
     "@semantic-release/changelog": "^3.0.6",
@@ -39,7 +42,7 @@
     "enzyme-adapter-react-16": "^1.15.1",
     "husky": "^3.1.0",
     "jest": "^24.9.0",
-    "jest-emotion": "^10.0.17",
+    "jest-emotion": "^10.0.26",
     "lint-staged": "^9.4.3",
     "prettier": "^1.19.1",
     "react": "^16.12.0",
