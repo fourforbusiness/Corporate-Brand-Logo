@@ -1,3 +1,10 @@
+# [0.2.0](https://github.com/fourforbusiness/corporate-brand-logo/compare/v0.1.4...v0.2.0) (2019-12-18)
+
+
+### Features
+
+* allow a width array for theme UI breakpoints ([433a200](https://github.com/fourforbusiness/corporate-brand-logo/commit/433a200ee81c2a3848c8afc5e81fae85f0699c96))
+
 ## [0.1.4](https://github.com/fourforbusiness/corporate-brand-logo/compare/v0.1.3...v0.1.4) (2019-12-09)
 
 
